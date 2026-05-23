@@ -1,5 +1,7 @@
 # Retold Sample Data
 
+> **[&#9654; Read the Retold-Sample-Data Documentation](https://stevenvelozo.github.io/retold-sample-data/)** &mdash; interactive docs with the full API reference.
+
 > A realistic bookstore schema and seed data set for testing and developing against the Retold ecosystem
 
 Retold Sample Data is a Fable service provider that ships a complete 12-entity bookstore schema (books, authors, customers, sales, inventory, reviews, and the join tables that wire them together) plus thousands of pre-populated seed rows. Every file the rest of the Retold ecosystem needs -- `MeadowModel.json`, per-entity `MeadowSchemaFoo.json`, a full SQLite DDL file, and an extensive `INSERT` seed -- is bundled into the package and exposed through a tiny API so consumers can load them without touching the filesystem directly.
