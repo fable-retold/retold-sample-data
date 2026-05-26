@@ -2,6 +2,6 @@
 	"Name": "retold-sample-data",
 	"Version": "1.0.1",
 	"Description": "Sample data and schemas for the Retold bookstore test harness",
-	"GeneratedAt": "2026-05-22T05:48:58.305Z",
-	"GitCommit": "7ea8a4e"
+	"GeneratedAt": "2026-05-26T18:25:56.196Z",
+	"GitCommit": "7441741"
 }
