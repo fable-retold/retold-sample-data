@@ -269,7 +269,7 @@ A reader's rating and written review for a specific book.
 | `DateTime` | `TEXT` | ISO 8601 strings |
 | `Boolean` | `INTEGER` | 0 or 1 |
 
-See [meadow-provider-offline's entity-schema doc](https://github.com/stevenvelozo/meadow-provider-offline/blob/master/docs/entity-schema.md) for the complete meadow type -> SQLite type mapping.
+See [meadow-provider-offline's entity-schema doc](https://github.com/fable-retold/meadow-provider-offline/blob/master/docs/entity-schema.md) for the complete meadow type -> SQLite type mapping.
 
 ## Related
 

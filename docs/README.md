@@ -71,10 +71,10 @@ See [Quick Start](quickstart.md) for a complete walkthrough from install to firs
 
 ## Related Packages
 
-- [meadow](https://github.com/stevenvelozo/meadow) -- data access and ORM
-- [meadow-graph-client](https://github.com/stevenvelozo/meadow-graph-client) -- graph queries that consume this schema
-- [meadow-provider-offline](https://github.com/stevenvelozo/meadow-provider-offline) -- offline provider that loads this schema in the browser
-- [meadow-connection-sqlite-browser](https://github.com/stevenvelozo/meadow-connection-sqlite-browser) -- browser SQLite connection used with the DDL
-- [retold-harness](https://github.com/stevenvelozo/retold-harness) -- the test harness that consumes this data
-- [retold-data-service](https://github.com/stevenvelozo/retold-data-service) -- consumes the `Schema.json` form
-- [fable](https://github.com/stevenvelozo/fable) -- application services framework
+- [meadow](https://github.com/fable-retold/meadow) -- data access and ORM
+- [meadow-graph-client](https://github.com/fable-retold/meadow-graph-client) -- graph queries that consume this schema
+- [meadow-provider-offline](https://github.com/fable-retold/meadow-provider-offline) -- offline provider that loads this schema in the browser
+- [meadow-connection-sqlite-browser](https://github.com/fable-retold/meadow-connection-sqlite-browser) -- browser SQLite connection used with the DDL
+- [retold-harness](https://github.com/fable-retold/retold-harness) -- the test harness that consumes this data
+- [retold-data-service](https://github.com/fable-retold/retold-data-service) -- consumes the `Schema.json` form
+- [fable](https://github.com/fable-retold/fable) -- application services framework

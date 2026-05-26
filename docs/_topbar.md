@@ -6,4 +6,4 @@
 - [Entities](entities.md)
 - [Using With Meadow](using-with-meadow.md)
 - [API Reference](api-reference.md)
-- [GitHub](https://github.com/stevenvelozo/retold-sample-data)
+- [GitHub](https://github.com/fable-retold/retold-sample-data)

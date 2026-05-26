@@ -1,6 +1,6 @@
 # Retold Sample Data
 
-> **[&#9654; Read the Retold-Sample-Data Documentation](https://stevenvelozo.github.io/retold-sample-data/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Retold-Sample-Data Documentation](https://fable-retold.github.io/retold-sample-data/)** &mdash; interactive docs with the full API reference.
 
 > A realistic bookstore schema and seed data set for testing and developing against the Retold ecosystem
 
@@ -95,7 +95,7 @@ Every method is synchronous and reads from disk (inside the package) on each cal
 
 ## Documentation
 
-Full documentation lives in the [`docs`](./docs) folder and is served via [pict-docuserve](https://github.com/stevenvelozo/pict-docuserve):
+Full documentation lives in the [`docs`](./docs) folder and is served via [pict-docuserve](https://github.com/fable-retold/pict-docuserve):
 
 - [Overview](docs/README.md) -- what the module ships and where each file lives
 - [Quick Start](docs/quickstart.md) -- three-minute walkthrough from install to first query
@@ -107,13 +107,13 @@ Full documentation lives in the [`docs`](./docs) folder and is served via [pict-
 
 ## Related Packages
 
-- [meadow](https://github.com/stevenvelozo/meadow) -- data access and ORM the schema targets
-- [meadow-graph-client](https://github.com/stevenvelozo/meadow-graph-client) -- graph queries over the schema in this module
-- [meadow-provider-offline](https://github.com/stevenvelozo/meadow-provider-offline) -- offline provider that loads this schema in the browser
-- [meadow-connection-sqlite-browser](https://github.com/stevenvelozo/meadow-connection-sqlite-browser) -- browser SQLite connection used with the DDL from this module
-- [retold-harness](https://github.com/stevenvelozo/retold-harness) -- the test harness this module exists to feed
-- [retold-data-service](https://github.com/stevenvelozo/retold-data-service) -- consumes the `Schema.json` form
-- [fable](https://github.com/stevenvelozo/fable) -- application services framework
+- [meadow](https://github.com/fable-retold/meadow) -- data access and ORM the schema targets
+- [meadow-graph-client](https://github.com/fable-retold/meadow-graph-client) -- graph queries over the schema in this module
+- [meadow-provider-offline](https://github.com/fable-retold/meadow-provider-offline) -- offline provider that loads this schema in the browser
+- [meadow-connection-sqlite-browser](https://github.com/fable-retold/meadow-connection-sqlite-browser) -- browser SQLite connection used with the DDL from this module
+- [retold-harness](https://github.com/fable-retold/retold-harness) -- the test harness this module exists to feed
+- [retold-data-service](https://github.com/fable-retold/retold-data-service) -- consumes the `Schema.json` form
+- [fable](https://github.com/fable-retold/fable) -- application services framework
 
 ## License
 

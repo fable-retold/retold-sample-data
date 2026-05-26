@@ -8,5 +8,5 @@
 - First-class Fable service provider with a seven-method API
 - Used by meadow-graph-client, meadow-provider-offline, and retold-harness tests
 
-[GitHub](https://github.com/stevenvelozo/retold-sample-data)
+[GitHub](https://github.com/fable-retold/retold-sample-data)
 [Get Started](#retold-sample-data)

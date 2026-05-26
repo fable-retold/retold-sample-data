@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/stevenvelozo/retold-sample-data.git"
+		"url": "git+https://github.com/fable-retold/retold-sample-data.git"
 	},
 	"keywords": [
 		"retold",
@@ -52,7 +52,7 @@
 	"author": "steven velozo <steven@velozo.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/stevenvelozo/retold-sample-data/issues"
+		"url": "https://github.com/fable-retold/retold-sample-data/issues"
 	},
-	"homepage": "https://github.com/stevenvelozo/retold-sample-data#readme"
+	"homepage": "https://github.com/fable-retold/retold-sample-data#readme"
 }

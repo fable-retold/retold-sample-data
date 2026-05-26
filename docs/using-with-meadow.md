@@ -120,7 +120,7 @@ _GraphClient.get(
     (pError, pResult) => { /* ... */ });
 ```
 
-Or, preferably, a manual path in the constructor options. See [meadow-graph-client's hints doc](https://github.com/stevenvelozo/meadow-graph-client/blob/master/docs/hints-and-manual-paths.md).
+Or, preferably, a manual path in the constructor options. See [meadow-graph-client's hints doc](https://github.com/fable-retold/meadow-graph-client/blob/master/docs/hints-and-manual-paths.md).
 
 ## Recipe 3: `meadow-provider-offline`
 

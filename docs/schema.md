@@ -203,7 +203,7 @@ A book can have multiple authors (co-authorship), an author can write multiple b
 - 13 authors
 - 27 book-author pairings (slightly more than either side, meaning several books have multiple co-authors)
 
-This is the canonical case `meadow-graph-client` tests against -- when you ask for "all books by a specific author" it traverses `Book -> BookAuthorJoin -> Author`. The weighting heuristics in the graph solver favor this specific path because `BookAuthorJoin` ends in the suffix `Join` (see [meadow-graph-client's solver docs](https://github.com/stevenvelozo/meadow-graph-client/blob/master/docs/api-solveGraphConnections.md) for how that scoring works).
+This is the canonical case `meadow-graph-client` tests against -- when you ask for "all books by a specific author" it traverses `Book -> BookAuthorJoin -> Author`. The weighting heuristics in the graph solver favor this specific path because `BookAuthorJoin` ends in the suffix `Join` (see [meadow-graph-client's solver docs](https://github.com/fable-retold/meadow-graph-client/blob/master/docs/api-solveGraphConnections.md) for how that scoring works).
 
 ## The Pricing Graph
 
