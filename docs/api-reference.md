@@ -107,7 +107,7 @@ const _SampleData = new libRetoldSampleData({}, {});
 _SampleData.getBookstoreSchemaPath();  // works
 ```
 
-This isn't formally supported -- it's a side effect of the current implementation that the read methods don't depend on Fable features. If you need a robust integration, pass a real Fable instance.
+This isn't formally supported -- it's a side effect of the current implementation that the read methods don't depend on Fable features. If you need a reliable integration, pass a real Fable instance.
 
 ## Related
 

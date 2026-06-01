@@ -1,6 +1,6 @@
 # Retold Sample Data
 
-> **[&#9654; Read the Retold-Sample-Data Documentation](https://fable-retold.github.io/retold-sample-data/)** &mdash; interactive docs with the full API reference.
+> **[Read the Retold-Sample-Data Documentation](https://fable-retold.github.io/retold-sample-data/)** - interactive docs with the full API reference.
 
 > A realistic bookstore schema and seed data set for testing and developing against the Retold ecosystem
 
