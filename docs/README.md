@@ -71,10 +71,10 @@ See [Quick Start](quickstart.md) for a complete walkthrough from install to firs
 
 ## Related Packages
 
-- [meadow](https://github.com/fable-retold/meadow) -- data access and ORM
+- [meadow](https://fable-retold.github.io/meadow/) -- data access and ORM
 - [meadow-graph-client](https://github.com/fable-retold/meadow-graph-client) -- graph queries that consume this schema
-- [meadow-provider-offline](https://github.com/fable-retold/meadow-provider-offline) -- offline provider that loads this schema in the browser
+- [meadow-provider-offline](https://fable-retold.github.io/meadow-provider-offline/) -- offline provider that loads this schema in the browser
 - [meadow-connection-sqlite-browser](https://github.com/fable-retold/meadow-connection-sqlite-browser) -- browser SQLite connection used with the DDL
-- [retold-harness](https://github.com/fable-retold/retold-harness) -- the test harness that consumes this data
-- [retold-data-service](https://github.com/fable-retold/retold-data-service) -- consumes the `Schema.json` form
-- [fable](https://github.com/fable-retold/fable) -- application services framework
+- [retold-harness](https://fable-retold.github.io/retold-harness/) -- the test harness that consumes this data
+- [retold-data-service](https://fable-retold.github.io/retold-data-service/) -- consumes the `Schema.json` form
+- [fable](https://fable-retold.github.io/fable/) -- application services framework
