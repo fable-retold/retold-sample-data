@@ -1,0 +1,20 @@
+flowchart LR
+    A[instantiate service]
+    B{pick format}
+    C[getMeadowModel]
+    D[getMeadowSchema]
+    E[getSQLiteDDL]
+    F[getSeedDataSQL]
+    G[graph client]
+    H[meadow DAL]
+    I[raw SQLite]
+
+    A --> B
+    B -->|combined form| C
+    B -->|per-entity form| D
+    B -->|raw SQL| E
+    E --> F
+
+    C --> G
+    D --> H
+    F --> I

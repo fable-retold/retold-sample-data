@@ -42,28 +42,8 @@ No options -- the service is stateless and reads from its bundled schema directo
 
 ## Typical Usage Flow
 
-```mermaid
-flowchart LR
-    A[instantiate service]
-    B{pick format}
-    C[getMeadowModel]
-    D[getMeadowSchema]
-    E[getSQLiteDDL]
-    F[getSeedDataSQL]
-    G[graph client]
-    H[meadow DAL]
-    I[raw SQLite]
-
-    A --> B
-    B -->|combined form| C
-    B -->|per-entity form| D
-    B -->|raw SQL| E
-    E --> F
-
-    C --> G
-    D --> H
-    F --> I
-```
+<!-- bespoke diagram: edit diagrams/typical-usage-flow.mmd or .hints.json, then: npx pict-renderer-graph build modules/utility/retold-sample-data/docs -->
+![Typical Usage Flow](diagrams/typical-usage-flow.svg)
 
 ## Method Details
 
