@@ -1,0 +1,5 @@
+BookStore
+  ├── BookStoreEmployee (N:1 to User)
+  ├── BookStoreInventory (N:1 to Book, N:1 to BookPrice)
+  └── BookStoreSale (N:1 to User as cashier)
+        └── BookStoreSaleItem (N:1 to Book, N:1 to BookPrice)

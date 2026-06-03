@@ -19,28 +19,8 @@ It exists because nearly every Retold package needs a non-trivial schema to test
 
 ## What's Inside The Package
 
-```
-source/schemas/bookstore/
-├── MeadowModel.json                            -- combined model (all 12 tables)
-├── Schema.json                                 -- RetoldDataService schema variant
-├── meadow/
-│   ├── MeadowSchemaAuthor.json                -- per-entity package schemas
-│   ├── MeadowSchemaBook.json
-│   ├── MeadowSchemaBookAuthorJoin.json
-│   ├── MeadowSchemaBookPrice.json
-│   ├── MeadowSchemaBookStore.json
-│   ├── MeadowSchemaBookStoreEmployee.json
-│   ├── MeadowSchemaBookStoreInventory.json
-│   ├── MeadowSchemaBookStoreSale.json
-│   ├── MeadowSchemaBookStoreSaleItem.json
-│   ├── MeadowSchemaCustomer.json
-│   ├── MeadowSchemaReview.json
-│   └── MeadowSchemaUser.json
-└── sqlite_create/
-    ├── BookStore-CreateSQLiteTables.sql       -- 222 lines of DDL
-    ├── BookStore-SeedData.sql                 -- main seed (76 INSERTs, ~30k lines)
-    └── BookStore-SeedData-Extended.sql        -- alternate seed (11 INSERTs)
-```
+<!-- bespoke diagram: edit diagrams/what-s-inside-the-package.mmd or .hints.json, then: npx pict-renderer-graph build modules/utility/retold-sample-data/docs -->
+![What's Inside The Package](diagrams/what-s-inside-the-package.svg)
 
 ## Quick Start
 

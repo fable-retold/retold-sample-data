@@ -56,28 +56,8 @@ npm install retold-sample-data
 
 ## What's Inside
 
-```
-source/schemas/bookstore/
-├── MeadowModel.json                            -- combined model (all 12 tables)
-├── Schema.json                                 -- full RetoldDataService schema
-├── meadow/
-│   ├── MeadowSchemaAuthor.json                -- per-entity package schemas
-│   ├── MeadowSchemaBook.json
-│   ├── MeadowSchemaBookAuthorJoin.json
-│   ├── MeadowSchemaBookPrice.json
-│   ├── MeadowSchemaBookStore.json
-│   ├── MeadowSchemaBookStoreEmployee.json
-│   ├── MeadowSchemaBookStoreInventory.json
-│   ├── MeadowSchemaBookStoreSale.json
-│   ├── MeadowSchemaBookStoreSaleItem.json
-│   ├── MeadowSchemaCustomer.json
-│   ├── MeadowSchemaReview.json
-│   └── MeadowSchemaUser.json
-└── sqlite_create/
-    ├── BookStore-CreateSQLiteTables.sql       -- full DDL (222 lines)
-    ├── BookStore-SeedData.sql                 -- main seed (76 INSERTs, ~30k lines)
-    └── BookStore-SeedData-Extended.sql        -- alternate seed (11 INSERTs)
-```
+<!-- bespoke diagram: edit diagrams/what-s-inside.mmd or .hints.json, then: npx pict-renderer-graph build modules/utility/retold-sample-data -->
+![What's Inside](diagrams/what-s-inside.svg)
 
 ## API
 

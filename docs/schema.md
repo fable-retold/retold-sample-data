@@ -46,13 +46,8 @@ Each `BookPrice` carries `StartDate`, `EndDate`, `Discountable`, and `CouponCode
 
 The store-side of the schema is a chain that pins a physical location to its staff, inventory, and sales:
 
-```
-BookStore
-  ├── BookStoreEmployee (N:1 to User)
-  ├── BookStoreInventory (N:1 to Book, N:1 to BookPrice)
-  └── BookStoreSale (N:1 to User as cashier)
-        └── BookStoreSaleItem (N:1 to Book, N:1 to BookPrice)
-```
+<!-- bespoke diagram: edit diagrams/the-store-operations-graph.mmd or .hints.json, then: npx pict-renderer-graph build modules/utility/retold-sample-data/docs -->
+![The Store Operations Graph](diagrams/the-store-operations-graph.svg)
 
 A `BookStoreSale` is one transaction with a total and a payment method. A `BookStoreSaleItem` is one line in that transaction -- a single book at a specific price in a specific quantity. This two-level sale structure is the standard POS pattern and lets you run "top 10 books sold last month" queries without duplicating sale-level data across line items.
 
